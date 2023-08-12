@@ -1,0 +1,21 @@
+{
+    "name": "UEPT.Editor",
+    "rootNamespace": "",
+    "references": [
+        "UEPT.Editor",
+        "UEPT.Backend",
+        "UEPT.Shared"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "QNX"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
