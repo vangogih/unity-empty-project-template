@@ -2,7 +2,7 @@
 
 namespace CompanyName.UEPT.Runtime
 {
-    public static class Constants
+    public static class RuntimeConstants
     {
         public static class Scenes
         {

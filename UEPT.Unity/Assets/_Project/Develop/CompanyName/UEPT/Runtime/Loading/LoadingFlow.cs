@@ -19,7 +19,7 @@ namespace CompanyName.UEPT.Runtime.Loading
         public async void Start()
         {
             await _loadingService.BeginLoading(new FooLoadingUnit(3));
-            _sceneManager.LoadScene(Constants.Scenes.Meta).Forget();
+            _sceneManager.LoadScene(RuntimeConstants.Scenes.Meta).Forget();
         }
     }
 }

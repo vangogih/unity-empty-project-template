@@ -21,7 +21,7 @@ namespace CompanyName.UEPT.Runtime.Bootstrap
             var fooLoadingUnit = new FooLoadingUnit();
             await _loadingService.BeginLoading(fooLoadingUnit);
 
-            _sceneManager.LoadScene(Constants.Scenes.Loading).Forget();
+            _sceneManager.LoadScene(RuntimeConstants.Scenes.Loading).Forget();
         }
     }
 }

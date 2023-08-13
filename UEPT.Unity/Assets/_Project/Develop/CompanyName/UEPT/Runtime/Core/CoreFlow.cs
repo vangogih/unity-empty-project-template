@@ -25,7 +25,7 @@ namespace CompanyName.UEPT.Runtime.Core
             if (!fooLoadingUnit.IsLoaded)
                 Log.Default.ThrowException("The end of example! Thank you for using this template!");
 
-            _sceneManager.LoadScene(Constants.Scenes.Bootstrap).Forget();
+            _sceneManager.LoadScene(RuntimeConstants.Scenes.Bootstrap).Forget();
         }
     }
 }

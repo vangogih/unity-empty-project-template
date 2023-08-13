@@ -12,7 +12,7 @@ namespace CompanyName.UEPT.Runtime.Utilities
         public async UniTask LoadScene(int toLoadIndex)
         {
             int currentSceneIndex = UnitySceneManager.GetActiveScene().buildIndex;
-            bool isSkipEmpty = currentSceneIndex == Constants.Scenes.Loading || currentSceneIndex == Constants.Scenes.Bootstrap || toLoadIndex == currentSceneIndex;
+            bool isSkipEmpty = currentSceneIndex == RuntimeConstants.Scenes.Loading || currentSceneIndex == RuntimeConstants.Scenes.Bootstrap || toLoadIndex == currentSceneIndex;
 
             if (isSkipEmpty)
             {
@@ -21,12 +21,12 @@ namespace CompanyName.UEPT.Runtime.Utilities
                 return;
             }
             
-            bool needLoadEmpty = toLoadIndex == Constants.Scenes.Meta || toLoadIndex == Constants.Scenes.Core || toLoadIndex == Constants.Scenes.Loading;
+            bool needLoadEmpty = toLoadIndex == RuntimeConstants.Scenes.Meta || toLoadIndex == RuntimeConstants.Scenes.Core || toLoadIndex == RuntimeConstants.Scenes.Loading;
 
             if (needLoadEmpty)
             {
-                Log.Default.D(LogTag, $"{SceneUtility.GetScenePathByBuildIndex(Constants.Scenes.Empty)} is loading.");
-                UnitySceneManager.LoadScene(Constants.Scenes.Empty);
+                Log.Default.D(LogTag, $"{SceneUtility.GetScenePathByBuildIndex(RuntimeConstants.Scenes.Empty)} is loading.");
+                UnitySceneManager.LoadScene(RuntimeConstants.Scenes.Empty);
             }
             
             await UniTask.NextFrame();
