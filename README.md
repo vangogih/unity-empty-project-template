@@ -3,6 +3,23 @@ Unity empty project template (UEPT)
 
 This is an empty project which provide clear, low-cognitive complexity structure of Assets folders
 
+<!-- TOC -->
+* [Unity empty project template (UEPT)](#unity-empty-project-template--uept-)
+  * [Problem](#problem)
+  * [Solution](#solution)
+  * [Installation](#installation)
+    * [Dependencies](#dependencies)
+    * [Example](#example)
+    * [TODO](#todo)
+  * [Folders purpose](#folders-purpose)
+    * [Root](#root)
+    * [Assets/_Project](#assets-_-project)
+    * [Assets/_Project/Develop/CompanyName/ProjectName](#assets-_-projectdevelopcompanynameprojectname)
+  * [Predefined scripts](#predefined-scripts)
+  * [Predefined scenes structure](#predefined-scenes-structure)
+  * [Contribute](#contribute)
+<!-- TOC -->
+
 ## Problem
 
 There are no project structure conventions and recomendations from Unity. It means that every package, external SDK or Asset Store assets can be organized differently.
@@ -76,7 +93,7 @@ And when you need to now only one thing: "_Project" folder contains all my asset
 
 ## Installation
 1. Clone the repo
-2. Rename UEPT prefix to your project abbriviature. It has to be less then 5 symbols. But it's up to you.
+2. Rename UEPT prefix to your project abbreviate. It has to be less then 5 symbols. But it's up to you.
 3. Open the UEPT.Unity project via Unity Hub.
 4. Rename "CompanyName" folder in '_Assets/Develop/` to your company name. Or remove that folder if you won't import code from other company's projects.
 5. Pick the folders which you will use in your project. Others can be deleted.
@@ -86,7 +103,7 @@ And when you need to now only one thing: "_Project" folder contains all my asset
 
 ### Dependencies
 - [VContainer](https://github.com/hadashiA/VContainer) - imported to the template via Package Manager
-- [UniTask](https://github.com/Cysharp/UniTask) - imported to the tempate via Package Manager
+- [UniTask](https://github.com/Cysharp/UniTask) - imported to the template via Package Manager
 
 ### Example
 Just run the `0.Bootstrap` scene and check the logs
@@ -96,13 +113,13 @@ Create setup wizard to automate steps 4-9
 
 ## Folders purpose
 
-Optional folder means it can be deleted. The folders without it should be left as it is. You orginize it as you want ¯\_(ツ)_/¯
+Optional folder means it can be deleted. The folders without it should be left as it is. You organize it as you want ¯\_(ツ)_/¯
 
 ### Root
 - `UEPT.Backend` - optional folder with backend side of the project. I don't insist on containing backend part within client part. You have to decide it personaly.
 - `UEPT.Build` - optional folder with CI/CD scripts to build Unity project or backend.
 - `UEPT.ExternalConfigs` - optional folder to collect client/backend external configuration. csv, excel, json files.
-- `UEPT.ThirdParty` - optional folder for all binary filder which clent/backend can use. Example: Unity Content Delivery binaries
+- `UEPT.ThirdParty` - optional folder for all binary folder which client/backend can use. Example: Unity Content Delivery binaries
 - `UEPT.Unity` - unity project folder
 
 ### Assets/_Project
@@ -141,4 +158,4 @@ If you compile with `COMPANYNAME_PROD` define (must be renamed) all debug logs a
 
 ## Contribute
 
-Don't hesitate to siggest you vision of project structure. Just create an issue or pull request.
+Don't hesitate to suggest you vision of project structure. Just create an issue or pull request.
