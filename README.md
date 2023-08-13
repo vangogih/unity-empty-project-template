@@ -98,9 +98,11 @@ And when you need to now only one thing: "_Project" folder contains all my asset
 3. Open the UEPT.Unity project via Unity Hub.
 4. Rename "CompanyName" folder in '_Assets/Develop/` to your company name. Or remove that folder if you won't import code from other company's projects.
 5. Pick the folders which you will use in your project. Others can be deleted.
-6. In similar way, rename all asmdef files.
+6. In similar way, rename all *.asmdef files.
 7. Rename `COMPANYNAME_PROD` define.
 8. Check and remove example code. See also: Predefined scripts.
+9. Remove .git folder in the root
+10. Enjoy!
 
 ### Dependencies
 - [VContainer](https://github.com/hadashiA/VContainer) - imported to the template via Package Manager
