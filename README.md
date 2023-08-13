@@ -96,7 +96,7 @@ And when you need to know only one thing: the "_Project" folder contains all my 
 1. Clone the repo.
 2. Rename the UEPT prefix to your project abbreviation. It has to be less than 5 symbols. But it's up to you.
 3. Open the UEPT.Unity project via Unity Hub.
-4. Rename the "CompanyName" folder in '_Assets/Develop/` to your company name. Or remove that folder if you won't import code from other companies' projects.
+4. Rename the "CompanyName" folder in `_Assets/Develop/` to your company name. Or remove that folder if you won't import code from other companies' projects.
 5. Pick the folders which you will use in your project. Others can be deleted.
 6. In a similar way, rename all *.asmdef files.
 7. Rename `COMPANYNAME_PROD` define.
