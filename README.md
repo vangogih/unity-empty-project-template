@@ -42,51 +42,51 @@ The way to do that:
 
 Instead:
 ```
-Assets
-  |-- AirTest (external asset)
-  |-- Animators (your folder)
-  |-- AppsFlyer (external asset)
-  |-- Audio (your folder)
-  |-- Demigiant (external asset)
-  |-- Editor (your folder)
-  |-- Effects (your folder)
-  |-- ExternalDependencyManager (external asset)
-  |-- Facebook (external asset)
-  |-- Firebase (external asset)
-  |-- Plugins (combination of your and imported assets)
-  |-- Prefabs (your folder)
-  |-- Resources (combination of your and imported assets)
-  |-- Scripts (your folder)
-  |-- Shaders (your folder)
-  |-- Streaming Assets
++-- Assets
+|   +-- AirTest (external asset)
+|   +-- Animators (your folder)
+|   +-- AppsFlyer (external asset)
+|   +-- Audio (your folder)
+|   +-- Demigiant (external asset)
+|   +-- Editor (your folder)
+|   +-- Effects (your folder)
+|   +-- ExternalDependencyManager (external asset)
+|   +-- Facebook (external asset)
+|   +-- Firebase (external asset)
+|   +-- Plugins (combination of your and imported assets)
+|   +-- Prefabs (your folder)
+|   +-- Resources (combination of your and imported assets)
+|   +-- Scripts (your folder)
+|   +-- Shaders (your folder)
+|   +-- Streaming Assets
 ```
 
 It Looks quite messy, isn't it? And just try to imagine what it's like to work with it every day. 
 
 And the way to streamline that mess:
 ```
-Assets
-  |-- _Project (your project folder with all YOUR assets)
-    |-- Art
-      |-- Prefabs
-      |-- Shaders
-    |-- Develop
-      |-- %company_name%
-        |-- %project_name%
-          |-- Editor
-          |-- Runtime
-          |-- Tests
-    |-- Plugins
-    |-- Prefabs
-    |-- Resources
-  |-- AirTest (external asset)
-  |-- AppsFlyer (external asset)
-  |-- Demigiant (external asset)
-  |-- ExternalDependencyManager (external asset)
-  |-- Facebook (external asset)
-  |-- Firebase (external asset)
-  |-- Plugins (ONLY external assets files)
-  |-- Resources (ONLY external assets files)
++-- Assets
+|   +-- _Project (your project folder with all YOUR assets)
+|       +-- Art
+|       +-- Prefabs
+|       +-- Shaders
+|       +-- Develop
+|           +-- %company_name%
+|               +-- %project_name%
+|                   +-- Editor
+|                   +-- Runtime
+|                   +-- Tests
+|       +-- Plugins
+|       +-- Prefabs
+|       +-- Resources
+|   +-- AirTest (external asset)
+|   +-- AppsFlyer (external asset)
+|   +-- Demigiant (external asset)
+|   +-- ExternalDependencyManager (external asset)
+|   +-- Facebook (external asset)
+|   +-- Firebase (external asset)
+|   +-- Plugins (ONLY external assets files)
+|   +-- Resources (ONLY external assets files)
 ```
 
 And when you need to now only one thing: "_Project" folder contains all my assets. That's it. No more paint and brainfuck while looking for required folder.
@@ -159,3 +159,6 @@ If you compile with `COMPANYNAME_PROD` define (must be renamed) all debug logs a
 ## Contribute
 
 Don't hesitate to suggest you vision of project structure. Just create an issue or pull request.
+
+## Licence
+This library is under the MIT License.
