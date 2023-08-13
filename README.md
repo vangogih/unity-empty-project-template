@@ -111,6 +111,8 @@ And when you need to now only one thing: "_Project" folder contains all my asset
 ### Example
 Just run the `0.Bootstrap` scene and check the logs
 
+Or you can check an [example](https://github.com/vangogih/UEPT.Example) project.
+
 ### TODO 
 Create setup wizard to automate steps 4-9
 
