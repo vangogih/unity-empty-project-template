@@ -1,4 +1,5 @@
-﻿using CompanyName.UEPT.Runtime.Bootstrap.Units;
+﻿using System.Threading;
+using CompanyName.UEPT.Runtime.Bootstrap.Units;
 using CompanyName.UEPT.Runtime.Utilities;
 using CompanyName.UEPT.Runtime.Utilities.Logging;
 using Cysharp.Threading.Tasks;
@@ -6,7 +7,7 @@ using VContainer.Unity;
 
 namespace CompanyName.UEPT.Runtime.Core
 {
-    public class CoreFlow : IStartable
+    public class CoreFlow : IAsyncStartable
     {
         private readonly LoadingService _loadingService;
         private readonly SceneManager _sceneManager;
@@ -17,7 +18,7 @@ namespace CompanyName.UEPT.Runtime.Core
             _sceneManager = sceneManager;
         }
 
-        public async void Start()
+        public async UniTask StartAsync(CancellationToken cancellation)
         {
             var fooLoadingUnit = new FooLoadingUnit(3, false);
             await _loadingService.BeginLoading(fooLoadingUnit);
