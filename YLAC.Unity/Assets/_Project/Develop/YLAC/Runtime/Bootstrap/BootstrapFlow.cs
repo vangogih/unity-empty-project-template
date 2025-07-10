@@ -1,9 +1,9 @@
-using CompanyName.UEPT.Runtime.Bootstrap.Units;
-using CompanyName.UEPT.Runtime.Utilities;
 using Cysharp.Threading.Tasks;
 using VContainer.Unity;
+using YLAC.Runtime.Bootstrap.Units;
+using YLAC.Runtime.Utilities;
 
-namespace CompanyName.UEPT.Runtime.Bootstrap
+namespace YLAC.Runtime.Bootstrap
 {
     public class BootstrapFlow : IStartable
     {

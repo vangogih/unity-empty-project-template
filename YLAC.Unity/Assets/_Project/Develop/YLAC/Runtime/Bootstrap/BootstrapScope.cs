@@ -1,8 +1,8 @@
-using CompanyName.UEPT.Runtime.Utilities;
 using VContainer;
 using VContainer.Unity;
+using YLAC.Runtime.Utilities;
 
-namespace CompanyName.UEPT.Runtime.Bootstrap
+namespace YLAC.Runtime.Bootstrap
 {
     public sealed class BootstrapScope : LifetimeScope
     {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
-using CompanyName.UEPT.Runtime.Utilities.Logging;
 using Cysharp.Threading.Tasks;
+using YLAC.Runtime.Utilities.Logging;
 
-namespace CompanyName.UEPT.Runtime.Utilities
+namespace YLAC.Runtime.Utilities
 {
     public interface IDisposableLoadUnit : ILoadUnit, IDisposable { }
 

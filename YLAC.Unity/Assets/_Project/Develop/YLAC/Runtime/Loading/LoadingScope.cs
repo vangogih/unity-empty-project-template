@@ -1,7 +1,7 @@
 ﻿using VContainer;
 using VContainer.Unity;
 
-namespace CompanyName.UEPT.Runtime.Loading
+namespace YLAC.Runtime.Loading
 {
     public sealed class LoadingScope : LifetimeScope
     {

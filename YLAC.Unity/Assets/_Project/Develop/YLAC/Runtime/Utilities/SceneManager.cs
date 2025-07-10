@@ -1,9 +1,9 @@
-﻿using CompanyName.UEPT.Runtime.Utilities.Logging;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
 using UnityEngine.SceneManagement;
+using YLAC.Runtime.Utilities.Logging;
 using UnitySceneManager = UnityEngine.SceneManagement.SceneManager;
 
-namespace CompanyName.UEPT.Runtime.Utilities
+namespace YLAC.Runtime.Utilities
 {
     public class SceneManager
     {

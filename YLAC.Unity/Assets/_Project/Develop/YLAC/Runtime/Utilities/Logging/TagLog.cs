@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 
-namespace CompanyName.UEPT.Runtime.Utilities.Logging
+namespace YLAC.Runtime.Utilities.Logging
 {
     public sealed class TagLog
     {

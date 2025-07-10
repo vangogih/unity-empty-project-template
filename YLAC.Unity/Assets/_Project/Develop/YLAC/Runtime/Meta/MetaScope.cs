@@ -1,7 +1,7 @@
 ﻿using VContainer;
 using VContainer.Unity;
 
-namespace CompanyName.UEPT.Runtime.Meta
+namespace YLAC.Runtime.Meta
 {
     public sealed class MetaScope : LifetimeScope
     {

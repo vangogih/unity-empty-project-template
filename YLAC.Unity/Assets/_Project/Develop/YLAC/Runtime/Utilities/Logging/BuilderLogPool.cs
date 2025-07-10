@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CompanyName.UEPT.Runtime.Utilities.Logging
+namespace YLAC.Runtime.Utilities.Logging
 {
     public sealed class BuilderLogPool
     {

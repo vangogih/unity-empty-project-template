@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CompanyName.UEPT.Runtime.Utilities
+namespace YLAC.Runtime.Utilities
 {
     public static class AssetService
     {

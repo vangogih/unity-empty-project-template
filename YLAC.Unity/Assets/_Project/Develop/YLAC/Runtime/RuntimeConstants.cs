@@ -1,6 +1,6 @@
 ﻿using UnityEngine.SceneManagement;
 
-namespace CompanyName.UEPT.Runtime
+namespace YLAC.Runtime
 {
     public static class RuntimeConstants
     {

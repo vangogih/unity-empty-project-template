@@ -1,7 +1,7 @@
 ﻿using VContainer;
 using VContainer.Unity;
 
-namespace CompanyName.UEPT.Runtime.Core
+namespace YLAC.Runtime.Core
 {
     public sealed class CoreScope : LifetimeScope
     {

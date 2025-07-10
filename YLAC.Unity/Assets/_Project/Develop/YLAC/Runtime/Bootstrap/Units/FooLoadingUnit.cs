@@ -1,8 +1,8 @@
-﻿using CompanyName.UEPT.Runtime.Utilities;
-using CompanyName.UEPT.Runtime.Utilities.Logging;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
+using YLAC.Runtime.Utilities;
+using YLAC.Runtime.Utilities.Logging;
 
-namespace CompanyName.UEPT.Runtime.Bootstrap.Units
+namespace YLAC.Runtime.Bootstrap.Units
 {
     public sealed class FooLoadingUnit : ILoadUnit
     {
