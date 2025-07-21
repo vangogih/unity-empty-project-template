@@ -1,11 +1,11 @@
 {
-    "name": "YLAC.Runtime",
+    "name": "UEPT.Runtime",
     "rootNamespace": "",
     "references": [
-        "UEPT.Shared",
-        "UEPT.Backend",
         "UniTask",
-        "VContainer"
+        "VContainer",
+        "UniTask.Addressables",
+        "Unity.Addressables"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
