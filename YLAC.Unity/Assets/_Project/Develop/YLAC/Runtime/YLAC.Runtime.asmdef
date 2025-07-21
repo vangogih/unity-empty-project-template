@@ -5,7 +5,8 @@
         "UniTask",
         "VContainer",
         "UniTask.Addressables",
-        "Unity.Addressables"
+        "Unity.Addressables",
+        "Unity.ResourceManager"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
